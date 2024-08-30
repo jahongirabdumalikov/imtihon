@@ -1,0 +1,128 @@
+.join {
+    padding: 40px 195px 40px 195px;
+
+
+    .join__card {
+        max-width: 100%;
+        height: 430px;
+        background-color: #3B3B3B;
+        border-radius: 20px;
+    }
+}
+
+.card__control {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+
+    img {
+        margin-top: 65px;
+        width: 425px;
+        height: 310px;
+    }
+}
+
+.join__input {
+
+    h1 {
+        max-width: 350px;
+        font-size: 38px;
+        font-weight: 600;
+        color: #fff;
+        margin-top: 90px;
+    }
+
+    p {
+        font-size: 22px;
+        font-weight: 300;
+        max-width: 400px;
+        color: #d5d5d5;
+        margin-top: 20px;
+    }
+}
+
+.input_apple {
+    width: 420px;
+    height: 60px;
+    display: flex;
+    gap: 50px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    margin-top: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    input {
+        max-width: 149px;
+        height: 26px;
+        margin-top: 19px;
+        margin-left: 25px;
+        border: none;
+    }
+
+    button {
+      
+        padding: 25px 70px 30px 78px;
+        border: none;
+        border-radius: 20px;
+        background-color: #A259FF;
+        color: #FFFFFF;
+        cursor: pointer;
+       
+    }
+}
+
+
+
+@media only screen and (max-width: 767px){
+    .join{
+        padding: 40px 0px 80px 0px;
+    }
+
+    .join__card{
+        max-width: 80%;
+        height: 400px;
+    }
+
+    .card__control >img{
+        width: 300px;
+        height: 200px;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 545px){
+    .join{
+        padding: 40px 50px 40px 50px;
+    }
+
+    .join__card{
+        max-width: 80%;
+        height: 400px;
+    }
+
+    .join__input{
+        h1{
+            font-size: 24px;
+            max-width: 250px;
+        }
+        p{
+            font-size: 14px;
+            max-width: 200px;
+        }
+    }
+
+    .card__control>img{
+        display: none;
+    }
+
+    .input_apple{
+        width: 200px;
+        flex-wrap: wrap;
+
+        button{
+            padding: 20px 80px 20px 80px;
+        }
+    }
+}

@@ -1,0 +1,91 @@
+.browes{
+    padding: 80px 195px 80px 195px;
+}
+
+.browes__wrapper>h1{
+    color: #fff;
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.browers__control{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: auto;
+    gap: 20px;
+    }
+
+.browes__card{
+    width: 240px;
+    height: 316px;
+    background-color: #3B3B3B;
+    border-radius: 20px;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.browes__card>h4{
+    color: #fff;
+    padding: 20px;
+}
+
+
+
+
+@media only screen and (max-width: 1023px){
+
+
+
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px){
+
+    .browes{
+        padding: 40px 0px 40px 0px;
+    }
+
+    .browes__wrapper>h1{
+        font-size: 26px;
+        display: flex;
+        justify-content: center;
+    }
+.browers__control{
+
+    grid-template-columns: repeat( 4,auto);
+    grid-template-rows: auto;
+    
+
+}
+    
+}
+
+
+
+@media only screen and (max-width: 540px){
+
+    .browes{
+        padding: 20px 20px 20px 20px;
+    }
+
+    .browes__wrapper>h1{
+        font-size: 26px;
+        display: flex;
+        justify-content: center;
+    }
+.browers__control{
+
+    grid-template-columns: repeat( 2,auto);
+    grid-template-rows: auto;
+    gap: 30px;
+    
+
+}
+    
+}
